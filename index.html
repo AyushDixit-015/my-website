@@ -1,28 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Ayush Dixit | My Website</title>
+    <title>Ayush Dixit | Portfolio</title>
 
     <meta name="description"
-          content="Official website of Ayush Dixit. Explore my projects, skills and web development work.">
+          content="Ayush Dixit's portfolio showcasing skills, projects, education and web development work.">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Ayush Dixit</h1>
+    <header>
+        <nav>
+            <h2 class="logo">Ayush Dixit</h2>
 
-    <h2>Welcome to My Website</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <p>
-        This is my personal website where I will share my projects,
-        skills and web development work.
-    </p>
+    <main>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="intro">Hello, I'm</p>
+
+                <h1>Ayush Dixit</h1>
+
+                <h2>BCA Student & Aspiring Developer</h2>
+
+                <p>
+                    I enjoy learning programming, web development and building
+                    practical projects while improving my technical skills.
+                </p>
+
+                <div class="buttons">
+                    <a href="#projects" class="btn primary-btn">View Projects</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+
+            <p class="section-text">
+                I am a BCA student interested in programming, web development
+                and data-related technologies. I enjoy learning new concepts,
+                creating projects and improving my problem-solving skills.
+            </p>
+        </section>
+
+
+        <section id="skills" class="section">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-container">
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">Java</div>
+                <div class="skill-card">PHP</div>
+                <div class="skill-card">MySQL</div>
+            </div>
+        </section>
+
+
+        <section id="projects" class="section">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="projects-container">
+
+                <div class="project-card">
+                    <h3>Personal Portfolio</h3>
+
+                    <p>
+                        A responsive portfolio website created using HTML and CSS
+                        and deployed using GitHub Pages.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Future Project</h3>
+
+                    <p>
+                        More projects will be added here as I continue learning
+                        and building new applications.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education-card">
+                <h3>Bachelor of Computer Applications</h3>
+                <p>Currently pursuing BCA and developing skills in programming and technology.</p>
+            </div>
+        </section>
+
+
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact</h2>
+
+            <p class="section-text">
+                Interested in connecting or discussing projects? You can reach me
+                through my GitHub profile.
+            </p>
+
+            <a
+                href="https://github.com/AyushDixit-015"
+                target="_blank"
+                class="btn primary-btn">
+                Visit GitHub
+            </a>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 Ayush Dixit. All rights reserved.</p>
+    </footer>
 
 </body>
-
 </html>
